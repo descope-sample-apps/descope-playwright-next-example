@@ -1,10 +1,12 @@
-<img width="1400" alt="playwright sample app repo banner" src="https://github.com/descope-sample-apps/descope-playwright-example/assets/32936811/e6fbcdb7-4418-4766-8703-a97f3e4e40a2">
+<img width="1400" alt="Screenshot 2024-04-01 at 1 22 03 PM" src="https://github.com/descope-sample-apps/descope-playwright-next-example/assets/32936811/a7dfdb81-73ec-4115-81ca-c0253e0960ac">
 
 ---
 
 # Playwright / Next Sample App
 
 This sample app demonstrates the integration of Descope authentication within a web application tested using Playwright's end-to-end testing capabilities. The app allows users to log in, and once authenticated, displays the user ID. It includes e2e tests to create a test user with the Descope Management SDK.
+
+It also tests the Next.js SDK middleware by visiting a protected page with the saved auth state.
 
 ## Table of Contents 📝
 
