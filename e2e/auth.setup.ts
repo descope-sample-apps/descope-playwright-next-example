@@ -1,4 +1,4 @@
-import { createSdk } from "@descope/nextjs-sdk/server";
+import Descope from "@descope/node-sdk";
 import { chromium, type FullConfig } from "@playwright/test";
 import * as crypto from "crypto";
 
@@ -13,8 +13,8 @@ async function globalSetup(config: FullConfig) {
   const testUser = crypto.randomBytes(20).toString("hex");
   process.env.TEST_USER = testUser;
 
-  const descope = createSdk({
-    projectId: process.env.NEXT_PUBLIC_DESCOPE_PROJECT_ID,
+  const descope = Descope({
+    projectId: process.env.NEXT_PUBLIC_DESCOPE_PROJECT_ID!,
     managementKey: process.env.DESCOPE_MANAGEMENT_KEY,
   });
 

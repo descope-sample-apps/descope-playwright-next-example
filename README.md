@@ -21,7 +21,7 @@ This sample app demonstrates the integration of Descope authentication within a 
 To get started with this app, clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/descope-playwright-next-example.git
+git clone https://github.com/descope-sample-apps/descope-playwright-next-example.git
 cd descope-playwright-next-example
 npm install
 ```

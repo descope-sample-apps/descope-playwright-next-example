@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Set webServer.url and use.baseURL with the location of the WebServer respecting the correct set port
 const baseURL =
-  process.env.PLAYWRIGHT_TEST_BASE_URL || `http://localhost:${PORT}`;
+  process.env.PLAYWRIGHT_TEST_BASE_URL || `http://localhost:${PORT}/`;
 
 // Reference: https://playwright.dev/docs/test-configuration
 export default defineConfig({
