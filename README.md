@@ -32,7 +32,9 @@ npm install
 
 Before running the tests, ensure that you have set up your environment variables correctly by following these steps:
 
-1. Get your Project ID from the [Project Settings Page](https://app.descope.com/settings/project)
+1. Get your Project ID from the [Project Settings](https://app.descope.com/settings/project) page.
+
+> **NOTE:** If you're on the Pro or Enterprise tier, make sure that you turn off Refresh Token Rotation under [Project Settings](https://app.descope.com/settings/project), as this can cause issues saving the auth state between pages in your tests.
 
 2. Then, create a Management key if you do not currently have one [here](https://app.descope.com/settings/company/managementkeys).
 
